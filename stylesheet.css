@@ -68,7 +68,7 @@ a {
   font-size: 1.25rem;
 }
 .projects {
-  overflow-y: scroll;
+  width: 100%;
   height: 70vh;
 }
 .card img {
@@ -93,12 +93,10 @@ a {
 
 .footer {
   border-top: 0.2rem #324141 solid;
-  position: absolute;
-  left: 0;
-  bottom: 0;
   width: 100%;
   text-align: center;
   font-weight: 500;
+  display: block;
 }
 
 .socials {
