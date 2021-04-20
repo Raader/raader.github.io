@@ -3,33 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3930e90667.js" crossorigin="anonymous"></script>
     <title>Raader</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-    <header>
-        Raader
-    </header>
-    <a href="https://github.com/Raader">
-        <h1>
-            Github
-        </h1>
-    </a>
-    <section>
-        <div class="games">
-            <h2>Games</h2>
-            <button class="gamebutton" onclick="document.location ='https://raader.github.io/Tic-Tac-Toe/' ">
-                Tic Tac Toe
-            </button>
-            <button class="gamebutton" onclick="document.location ='https://raader.github.io/Minesweeper/'">
-                Minesweeper
-            </button>
+    <div class="header"><i class="fas fa-cogs"></i> Raader</div>
+    <div class="body">
+        <div class="quote">i make web apps and stuff.</div>
+        <div class="projects">
+            <h2><i class="fas fa-stream"></i> Projects</h2>
+            <div class="card"><img src="./project-todo.png" alt="project-todo"/>
+                <div class="corner" id="github"><i class="fab fa-github"></i></div>
+                <p class="title"><i class="fas fa-list"></i> Project_Todo</p>
+                <p class="context">A todo manager designed for small scale projects.</p>
+                <div class="card-footer">
+                    <span class="tag"><i class="fab fa-node"></i> Nodejs</span>
+                    <span class="tag"><i class="fab fa-react"></i> React</span>
+                    <span class="tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                    <span class="tag"><i class="fas fa-database"></i> MongoDB</span>
+                </div>
+            </div>
+            <div class="card"><img src="./online-uno.png" alt="online-uno"/>
+                <div class="corner"  ><a href="https://github.com/Raader/online-uno-like-game" id="github"><i class="fab fa-github"></a></i></div>
+                <p class="title"><i class="fas fa-list"></i> Online_Uno</p>
+                <p class="context">Simple, no-signup online uno game.</p>
+                <div class="card-footer">
+                    <span class="tag"><i class="fab fa-node"></i> Nodejs</span>
+                    <span class="tag"><i class="fab fa-react"></i> React</span>
+                    <span class="tag"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                    <span class="tag"><i class="fas fa-paper-plane"></i> Websocket</span>
+                </div>
+            </div>
         </div>
-    </section>
-
-
-
+    </div>
+    <div class="footer">
+        <div class="socials"><i class="fas fa-share-alt-square"></i> Social Links</div>
+        <div class="social">
+            <span class="link" ><a href="https://github.com/Raader" id="github"><i class="fab fa-github"></i> Github</a></span>
+            <span class="link" id="twitter"><i class="fab fa-twitter"></i> Twitter</span>
+            <span class="link" id="stack"><i class="fab fa-stack-overflow"></i> Stackoverflow</span>
+        </div>
+    </div>
 </body>
 
 </html>
