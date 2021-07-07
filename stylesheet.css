@@ -21,6 +21,7 @@ html {
 .main {
   max-width: var(--site-width);
   margin: auto;
+  padding: 0 1rem;
 }
 
 a {
