@@ -17,9 +17,14 @@ html {
 *:after {
   box-sizing: border-box;
 }
+
 .main {
   max-width: var(--site-width);
   margin: auto;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* header */
@@ -30,4 +35,14 @@ html {
 .header-info {
   text-align: center;
   margin-top: 0;
+}
+
+/* project */
+
+.project-list {
+}
+
+.project-name,
+.project-info {
+  margin-bottom: 0.5rem;
 }
