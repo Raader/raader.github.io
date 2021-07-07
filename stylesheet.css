@@ -26,6 +26,10 @@ html {
   padding: 0 1rem;
 }
 
+.context {
+  margin-top: 0.5rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -45,8 +49,7 @@ a {
 .project-list {
 }
 
-.project-name,
-.project-info {
+.project-name {
   margin-bottom: 0.5rem;
 }
 
