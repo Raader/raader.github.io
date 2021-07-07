@@ -92,3 +92,13 @@ a {
   border: 0.1rem var(--text-color) solid;
   background-color: transparent;
 }
+
+.skills {
+  display: flex;
+}
+.skill-set {
+  flex-grow: 1;
+}
+.skill-set h4 {
+  margin-top: 0;
+}
