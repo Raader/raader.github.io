@@ -2,10 +2,12 @@
 
 :root {
   --site-width: 800px;
+  --text-color: black;
 }
 
 body {
   font-family: "Rubik", sans-serif;
+  color: var(--text-color);
 }
 
 html {
@@ -46,4 +48,44 @@ a {
 .project-name,
 .project-info {
   margin-bottom: 0.5rem;
+}
+
+/* contact */
+.contact-form {
+  width: 100%;
+  max-width: 300px;
+  font-size: 16px;
+}
+.contact-form label {
+  font-weight: 600;
+}
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 0.1rem var(--text-color) solid;
+  font-size: inherit;
+  margin-bottom: 0.5rem;
+}
+.contact-form textarea {
+  resize: vertical;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 0.1rem var(--text-color) solid;
+}
+
+.contact-form button {
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 600;
+  border: 0.1rem var(--text-color) solid;
+  background-color: transparent;
 }
