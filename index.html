@@ -4,37 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Efe Ağca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
     <style>
       body {
-        font-family: Helvetica, Arial, sans-serif;
-        background-color: #ede5d9;
+        font-family: "VT323", monospace;
+        background-color: #2d2d2d;
+        color: #646464;
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
       }
 
       main {
         max-width: 60ch;
         margin: auto;
+        padding: 1ch;
       }
 
-      h1 {
-        color: #ff5733;
+      #title {
+        color: #79d4d5;
       }
 
-      li {
-        margin-bottom: 1ch;
+      #projects {
+        color: #a9d3ab;
       }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li::before {
+        content: "$ ";
+        color: #d4d4d4;
+      }
+
+      li b {
+        color: #fed37e;
+      }
+
       a {
-        color: #ff5733;
+        color: #7aabd4;
         font-weight: bold;
       }
     </style>
   </head>
   <body>
     <main>
-      <h1>Efe Ağca</h1>
-      <p>I do programming stuff.</p>
-      <h3>Projects</h2>
       <ul>
-        <li><b>Question Bank:</b> Question editor and procedural test maker.</li>
+        <li><b id="title">Efe Ağca</b></li>
+        <li>I do programming stuff</li>
+        <li><b id="projects">Projects</b></li>
+        <li>
+          <b>Question Bank:</b> Question editor and procedural test maker.
+        </li>
         <li><b>Bouncy Mug:</b> Doodle jump style game with a twist.</li>
         <li><b>Realgar:</b> Subscription and recurring payments tracker.</li>
         <li><b>Project TODO:</b> Project based todo list app.</li>
@@ -43,11 +72,13 @@
         <li><b>Online Tic-Tac-Toe:</b> Online Tic-Tac-Toe dueling game.</li>
         <li><b>Minesweeper:</b> Minesweeper game on the browser.</li>
         <li><b>Breakout:</b> Classic breakout game clone.</li>
-        <li><b>Text Encryptor:</b> Encrypts texts using a given linear function.</li>
+        <li>
+          <b>Text Encryptor:</b> Encrypts texts using a given linear function.
+        </li>
         <li><b>Tower of Hanoi:</b> Tower of hanoi game and solver.</li>
         <li><b>Chess:</b> Local two player chess game.</li>
+        <li><a href="https://github.com/Raader">Github Profile</a></li>
       </ul>
-      <a href="https://github.com/Raader">Github Profile</a>
     </main>
   </body>
 </html>
