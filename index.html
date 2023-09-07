@@ -26,23 +26,33 @@
         padding: 1ch;
       }
 
-      #title {
+      h1 {
         color: #f58e8e;
+        margin: 1ch 0;
       }
 
-      #projects {
-        color: #f58e8e;
+      h2 {
+        color: #a9d3ab;
+        margin: 1ch 0;
+      }
+
+      p {
+        margin: 1ch 0;
       }
 
       ul {
         list-style: none;
         padding: 0;
-        margin: 0;
+        margin: 1ch 0;
       }
 
       li::before {
         content: "$ ";
         color: #d4d4d4;
+      }
+
+      li {
+        margin-bottom: 1ch;
       }
 
       li b {
@@ -52,15 +62,16 @@
       a {
         color: #7aabd4;
         font-weight: bold;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
     <main>
+      <h1>Efe Ağca</h1>
+      <p>I do programming stuff.</p>
+      <h2>Projects</h2>
       <ul>
-        <li><b id="title">Efe Ağca</b></li>
-        <li>I do programming stuff</li>
-        <li><b id="projects">Projects</b></li>
         <li>
           <b>Question Bank:</b> Question editor and procedural test maker.
         </li>
@@ -77,8 +88,8 @@
         </li>
         <li><b>Tower of Hanoi:</b> Tower of hanoi game and solver.</li>
         <li><b>Chess:</b> Local two player chess game.</li>
-        <li><a href="https://github.com/Raader">Github Profile</a></li>
       </ul>
+      <a href="https://github.com/Raader">Github Profile</a>
     </main>
   </body>
 </html>
